@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    'https://imaginative-capybara-85bccc.netlify.app/',
+    'https://imaginative-capybara-85bccc.netlify.app',
     'https://www.yoursite.com',
     'http://127.0.0.1:5500',
     'http://localhost:4000',
