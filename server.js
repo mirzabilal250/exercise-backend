@@ -5,12 +5,14 @@ const dbConnection = require('./database/db')
 const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/user')
 const dotenv = require('dotenv')
+const cors = require('cors');
+const corsOptions = require('./config/corsOption')
 
 // express app
 const app = express()
 dotenv.config();
 
-
+app.use(cors(corsOptions));
 // middleware
 app.use(express.json())
 
